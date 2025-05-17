@@ -6,8 +6,6 @@ window.onload = function(){
 document.addEventListener('DOMContentLoaded', function(){
 //load all the data before the html is loaded
 
-navigator.mediaDevices.getUserMedia({ video: true }).then(stream => stream.getTracks().forEach(track => track.stop()));
-
 
 let buttons = document.getElementById("buttons")
 let coolbutton = document.getElementById("coolbutton")
